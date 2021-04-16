@@ -1,0 +1,44 @@
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+}
+
+.selection {
+    font-size: 2rem;
+}
+
+
+.results {
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    font-size: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.result-score {
+    margin-left: 1rem;
+    font-size: 3rem;
+    color: #333;
+}
+
+.result-selection {
+    opacity: .5;
+}
+
+
+.result-selection.winner {
+    opacity: 1.5;
+    font-size: 3rem;
+}
